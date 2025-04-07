@@ -2,7 +2,7 @@ const itemInput = document.getElementById("itemInput");
 const addItemButton = document.getElementById("addItem");
 const itemList = document.getElementById("itemList");
 
-const API_URL = "https://localhost:3000/items";
+const API_URL = "https://todo-backend-hlgg.onrender.com/items";
 
 function renderItem(item) {
     const newItem = document.createElement("li");
